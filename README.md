@@ -1,2 +1,1 @@
-TWRP device configuration for Sony Xperia XA2
-==============
+# TWRP device configuration for Sony Xperia XA2 Plus (voyager)

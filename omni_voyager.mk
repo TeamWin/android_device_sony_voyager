@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := pioneer
+PRODUCT_RELEASE_NAME := voyager
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -60,8 +60,8 @@ PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_pioneer
-PRODUCT_DEVICE := pioneer
+PRODUCT_NAME := omni_voyager
+PRODUCT_DEVICE := voyager
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia XA2
+PRODUCT_MODEL := Xperia XA2 Plus
 PRODUCT_MANUFACTURER := Sony
