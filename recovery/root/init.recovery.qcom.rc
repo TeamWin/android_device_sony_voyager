@@ -32,7 +32,7 @@ on property:crypto.ready=1
     start servicemanager
 
     # Wait for qseecomd to finish
-    wait_for_prop sys.listeners.registered true
+    exec u:r:recovery:s0 -- /sbin/wait_for_qseecomd.sh
 
     start gatekeeper-1-0
     start keymaster-3-0
